@@ -36,57 +36,6 @@
   }
   
   /* Hero Section */
-  .hero {
-    position: relative;
-    text-align: center;
-  }
-  
-  .hero .Backg img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .hero .bannertext {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-  }
-  
-  .hero .bannertext h1 {
-    font-size: 50px;
-    font-weight: bold;
-  }
-  
-  .hero .bannertext p {
-    font-size: 20px;
-    margin: 5px 0;
-  }
-  
-  /* Grid Layout for History Section */
-  .History_Section {
-    padding: 40px 20px;
-    background-color: #fff;
-    text-align: center;
-  }
-  
-  .History_Section h2 {
-    margin-bottom: 20px;
-    font-size: 30px;
-  }
-  
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-  }
-  
-  .grid-item {
-    padding: 20px;
-    background-color: #eee;
-    border: 1px solid #ccc;
-  }
   
   .image-item img {
     width: 100%;
@@ -94,22 +43,7 @@
   }
   
   /* Image Gallery Section */
-  .Other_Info {
-    padding: 40px 20px;
-    background-color: #222;
-    color: #fff;
-    text-align: center;
-  }
   
-  .Other_Info h2 {
-    margin-bottom: 20px;
-  }
-  
-  .image-gallery img {
-    width: 20%;
-    margin: 10px;
-    border-radius: 8px;
-  }
   
   /* Footer */
   footer {
@@ -118,7 +52,7 @@
     padding: 20px 0;
   }
   
-  footer .SocialLink {
+  footer .SocialMedia {
     display: flex;
     justify-content: center;
     align-items: center;
