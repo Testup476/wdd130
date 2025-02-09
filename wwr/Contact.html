@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="./styles/rafting.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,97.8,100..900;1,97.8,100..900&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wdth,wght@0,97.8,100..900;1,97.8,100..900&display=swap">
-    <link rel="stylesheet" href="./Styles/rafting.css">
 </head>
 <body>
     <header>
@@ -25,17 +24,45 @@
             </div>
         </nav>
     </header>
-
     <main>
-        <!-- Hero Section -->
-        
-        
+        <div class="Avatar">
+           
+            <form>
+                <img src="./images/happyclient.jpeg" class="profil">
+                <label for="Usern"> User Name: </label>
+                <input type="text" id="Usern" placeholder="Enter Username">
 
+                <label for="email"> Email Address: </label>
+                <input type="email" id="email" placeholder="Enter Email Address">
+
+                <div>
+                    <label for="chek1">General Inquiry</label>
+                    <input type="radio" name="inquiry" id="chek1">
+                    
+                    <label for="chek2">Resolvable Question</label>
+                    <input type="radio" name="inquiry" id="chek2">
+                    
+                    <label for="chek3">Website Suggestion</label>
+                    <input type="radio" name="inquiry" id="chek3">
+                </div>
+
+                <div>
+                    <label for="msg">Your message:</label>
+                    <textarea name="msg" id="msg" placeholder="Type your message here"></textarea>
+
+                    <button type="submit">Send</button>
+
+                    <div class="checks">
+                        <input type="checkbox" name="copym" id="copym">
+                        <label for="copym">Please Subscribe me to the monthly newsletter</label>
+                    </div>
+                </div>
+            </form>
+        </div>
     </main>
-
     <footer>
-        <section class="SocialMedia">
-            <p>© CopyRight 2025</p>
+        <div class="Socialmedia">
+            <h2>© CopyRight 2025</h2>
             <a href="https://www.facebook.com" target="_blank">
                 <img src="./images/face.png" alt="Facebook">
             </a>
@@ -45,10 +72,17 @@
             <a href="https://www.twitter.com" target="_blank">
                 <img src="./images/twit.png" alt="Twitter">
             </a>
-        </section>
+        </div>
+        
+        <div class="location">
+            <h2>Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d254595.47503787806!2d15.157924480391623!3d-4.40094324841709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2scd!4v1739059475272!5m2!1sfr!2scd" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
         <div class="CompanyInformation">
-            <div class="address">addres </div>
-            
+            <h2>Company Information</h2>
+            <p>Mahenge street, 89B, Kinshasa</p>
+            <p>+243813171233</p>
         </div>
     </footer>
 </body>

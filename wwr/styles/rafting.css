@@ -1,69 +1,142 @@
 /* Basic Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  /* Header */
-  header nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #222;
-    color: #fff;
-  }
-  
-  header .right_Content ul {
-    list-style-type: none;
-    display: flex;
-  }
-  
-  header .right_Content ul li {
-    margin-left: 20px;
-  }
-  
-  header .right_Content ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-  }
-  
-  /* Hero Section */
-  
-  .image-item img {
-    width: 100%;
-    height: auto;
-  }
-  
-  /* Image Gallery Section */
-  
-  
-  /* Footer */
-  footer {
-    background-color: #222;
-    color: #fff;
-    padding: 20px 0;
-  }
-  
-  footer .SocialMedia {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  footer .SocialLink a {
-    margin: 0 10px;
-  }
-  
-  footer .SocialLink a img {
-    width: 30px;
-    height: 30px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #222;
+  color: #fff;
+}
+
+header .right_Content ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header .right_Content ul li {
+  margin-left: 20px;
+}
+
+header .right_Content ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Footer */
+footer {
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 50px;
+  width: 100%;
+}
+
+/* Social Media and Company Information Styles */
+.Socialmedia h2 {
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 5%;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.Socialmedia a {
+  align-items: center;
+}
+
+.CompanyInformation h2 {
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 5%;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.CompanyInformation p {
+  margin-top: 5%;
+  font-weight: 40px;
+  font-size: 30px;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  background-color: #333;
+  border-radius: 8px;
+  width: 80%;
+  box-sizing: border-box;
+  margin-top: 30px; /* Space between navigation and form */
+  margin-bottom: 30px; /* Space between form and footer */
+  position: relative;
+  left: 10%;
+}
+
+label {
+  font-size: 1em;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #555;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(106, 87, 188);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6db;
+}
+
+.checks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profil{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  top: -30px;
+  left: 1%
+
+}
