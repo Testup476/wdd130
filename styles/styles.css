@@ -30,7 +30,7 @@ main{
     }
 
     ul.box {
-    clear: both; /* Force la liste à apparaître sous les éléments flottants */
+    clear: both; 
 }
 }
 header{
@@ -85,8 +85,6 @@ footer{
     border-top: 1px solid #000;
     text-align: center;
 }
-
-/* Class Selector */
 
 .box{
     margin: 1rem;
