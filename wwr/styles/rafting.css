@@ -43,8 +43,11 @@ footer {
     background: var(--accent2-color);
 }
 
-.socialmedia a {
-    text-decoration: none;
+.socialmedia {
+
+    display: flex;
+    gap: 1rem;
+  
 }
 
 .hero {
@@ -86,4 +89,73 @@ footer {
         text-align: center;
         width: 840px;
     }
+}
+
+header{
+    nav{
+        display: flex;
+        gap: 2rem;
+        justify-content: space-around;
+
+        ul{
+            margin-top: 4rem;
+            font-size: 1.5rem;
+            display: flex;
+            gap: 2rem;
+
+            >li{
+                list-style: none;
+                >a{
+                    text-decoration: none;
+                    &:hover{
+                        background: #ffb80397;
+                        border-radius: 3px;
+                    }
+                }
+            }
+        }
+    }
+}
+footer{
+    display:  flex;
+    gap: 2rem;
+    >p{
+        
+        margin-top: 4rem;
+    }
+}
+
+main{
+
+    h2{
+            text-align: center;
+            font-size: 2rem;
+        }
+    .history{
+        .content{
+            display:flex;
+            p{
+                line-break: anywhere;
+            }
+            img{
+                margin-top: 4rem;
+                border-radius: 3px;
+                width: 300px;
+                height: 200px;
+            }
+        }
+    }
+
+    .adventure{
+        text-align: center;
+        font-size: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+        justify-content: space-evenly;
+        img{
+            border-radius: 3px;
+            box-shadow: 0 5px 9px solid #1b4332;
+        }
+    } 
 }
