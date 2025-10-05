@@ -202,7 +202,7 @@ main{
 
 .message-purpose legend {
     font-weight: bold;
-    color: orange; /* adjust color to match your theme */
+    color: orange; 
     padding: 0 0.5rem;
 }
 
