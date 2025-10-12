@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="wwr/styles/rafting.css">
     <meta name="description" content="Jean Marc Kanca WDD130 Web Fundamentals">
     <title>Jean Marc Kanda | WDD 130</title>
     <meta name="author" content="Jean Marc Kanda">
@@ -15,71 +15,91 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wdth,wght@0,97.8,100..900;1,97.8,100..900&display=swap"
         rel="stylesheet">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Guardian Rafting Tours | Unleash Your Adventure on the River">
+    <meta name="description"
+        content="Experience the thrill of whitewater rafting with Guardian Rafting Tours. Explore breathtaking rivers, guided by professionals who make every trip safe, exciting, and unforgettable.">
+    <meta name="author" content="Jean Marc Kanda">
+
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.guardianrafting.com/">
+    <meta property="og:title" content="Guardian Rafting Tours | Unleash Your Adventure on the River">
+    <meta property="og:description"
+        content="Join Guardian Rafting Tours for epic river adventures. Discover scenic routes, expert guides, and thrilling rapids designed for every level of adventurer.">
+    <meta property="og:image" content="https://www.guardianrafting.com/images/home-preview.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.guardianrafting.com/">
+    <meta name="twitter:title" content="Guardian Rafting Tours | Unleash Your Adventure on the River">
+    <meta name="twitter:description"
+        content="Embark on a whitewater rafting journey with Guardian Rafting Tours. Safe, fun, and unforgettable river experiences for families, friends, and thrill-seekers.">
+    <meta name="twitter:image" content="https://www.guardianrafting.com/images/home-preview.jpg">
+
 </head>
 
 <body>
     <header>
+        <div class="hero-image">
+            <img src="wwr/images/homep.webp" alt="" width="840" height="400">
+        </div>
         <nav>
-            <a href="#">Home</a>
-            <a href="wwr/">Rafting Website</a>
-            <a href="wwr/">Siteplan</a>
-            <a href="https://linkedin.com.">LinkedIn</a>
-            <a href="https://facebook.com">facebook</a>
-            <button id="hamburger"></button>
+            <div class="logo">
+                <img src="wwr/images/logo2.png" alt="Rafting" width="200">
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="wwr/about.html">About Us</a></li>
+                <li><a href="wwr/Trip.html">Trips</a></li>
+                <li><a href="wwr/contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
-    <div class="grid">
-        <main>
-            <h1>JEAN MARC KANDA | WDD130</h1>
-            <!-- <p>This page will become your homepage for the course. You will remove this text and replace it with your own
-                personal details.</p> -->
-            <img src="images/Profile.webp" alt="My Profile." width="200">
-            <p>My name is <strong>Jean Marc Kanda</strong>, and I am from the <strong>Democratic Republic of Congo
-                    (DRC)</strong>.
 
-                The DRC is a vast and diverse country located in the heart of Africa. It is renowned for its
-                breathtaking
-                landscapes, rich natural resources, and vibrant cultures. As the second-largest country in Africa, it
-                boasts
-                dense
-                rainforests, mighty rivers like the Congo River, and abundant wildlife. The DRC is also home to a
-                multitude
-                of
-                ethnic groups, each with unique traditions, languages, and customs, making it a country of incredible
-                cultural
-                diversity.</p>
+    <main>
+        <h1 class="titre">About Our Adventure</h1>
+        <section>
+            <div class="content">
+                <h2>Our Mission</h2>
+                <p>We aim to share the excitement of white-water rafting with adventurers of all skill levels. Our
+                    mission is to
+                    connect people with nature through unforgettable river experiences.</p>
+            </div>
 
-            <ul class="box indent">
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/philadelphia-pennsylvania-temple"
-                        target="_blank">Philadelphia Pennsylvania Temple</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/paris-france-temple"
-                        target="_blank">Paris
-                        France
-                        Temple</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/lima-peru-los-olivos-temple"
-                        target="_blank">Lima
-                        Peru Temple</a></li>
-            </ul>
-        </main>
-        <aside class="box">
-            <h1>Democratic republic of Congo</h1>
-            <img src="images/drc.webp" alt="DRC">
-            <p>
-                The Democratic Republic of the Congo (DRC) is a large central African country rich in minerals like
-                cobalt
-                and copper.
-                Its capital is Kinshasa, and French is the official language. The DRC has a diverse population, vast
-                rainforests, and
-                the Congo River, but it faces challenges like political instability and regional conflicts. Despite
-                this, it
-                is
-                culturally vibrant and has great development potential.
-            </p>
-        </aside>
-    </div>
+            <div class="content">
+                <h2>Our Team</h2>
+                <p>Our certified guides are passionate outdoor experts who prioritize safety, teamwork, and fun. They
+                    know every
+                    rapid, every turn, and every secret spot along the river.</p>
+            </div>
+
+            <div class="content">
+                <h2>Our Commitment</h2>
+                <p>We are committed to sustainable tourism. We protect local wildlife, reduce waste, and educate every
+                    visitor
+                    about preserving our rivers for future generations.</p>
+            </div>
+        </section>
+
+    </main>
 
     <footer>
-        <p>&copy; 2025 ✨ JEAN MARC KANDA ✨ Democratic Republic of Congo</p>
+        <p>&copy; 2025 💦Guardian Rafting Tours💦 Jean Marc Kanda</p>
+        <section class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="wwr/images/facebook.svg" alt="Facebook Icon" width="100">
+            </a>
+
+            <a href="https://linkedin.com">
+                <img src="wwr/images/linkedin.svg" alt="linkedin Icon" width="100">
+            </a>
+
+            <a href="https://instagram.com">
+                <img src="wwr/images/instagram.svg" alt="intagram Icon" width="100">
+            </a>
+        </section>
     </footer>
 </body>
 

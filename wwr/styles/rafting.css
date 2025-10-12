@@ -37,6 +37,70 @@ footer {
     margin: 0 auto;
 }
 
+header {
+   position: relative;
+   .hero-image{
+    display: flex;
+    overflow: hidden;
+     img{
+        width: 100%;
+    height: 20rem;
+    display: block;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px;
+    background: linear-gradient(45deg, #007bFF, #0e3a5e);
+     }
+   }
+
+   margin-bottom: 1rem;
+    nav {
+        position: absolute;
+        display: flex;
+        width: fit-content;
+        top: -1%;
+        left: 10%;
+        right: 10%;
+        background-color: rgba(39, 74, 69, 0.495);
+        color: white;
+        border-radius: 5px;
+
+        ul {
+            display: flex;
+            list-style: none;
+            margin-top: 1rem;
+            li {
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 1rem;
+                    margin-top: 3rem;
+                    padding: 0.5rem 1rem;
+                    border-radius: 3px;
+                    transition: background 0.3s ease;
+
+                    &:hover {
+                        background: #fbff0397;
+                    }
+                }
+            }
+        }
+
+        .logo img{
+            width: 40%;
+            background: none;
+        }
+    }
+
+    > img {
+        width: 100%;
+        border-radius: 5px;
+        display: block;
+        border: 4px solid rgb(217, 209, 209);
+    }
+}
+
+
 header,
 footer {
 
@@ -91,31 +155,6 @@ footer {
     }
 }
 
-header{
-    nav{
-        display: flex;
-        gap: 2rem;
-        justify-content: space-around;
-
-        ul{
-            margin-top: 4rem;
-            font-size: 1.5rem;
-            display: flex;
-            gap: 2rem;
-
-            >li{
-                list-style: none;
-                >a{
-                    text-decoration: none;
-                    &:hover{
-                        background: #ffb80397;
-                        border-radius: 3px;
-                    }
-                }
-            }
-        }
-    }
-}
 footer{
     display:  flex;
     gap: 2rem;
@@ -219,6 +258,60 @@ main{
     cursor: pointer;
 }
 
+.titre{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #040417a5;
+    opacity: 10px;
+    text-transform: uppercase;
+}
 
+.content h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #071630a1;
+    font-size: 1rem;
+    padding: .5rem;
+    text-align: left;
+}
+
+.content p{
+    font-size:small;
+    text-align: left;
+    line-break: anywhere;
+}
+.content{
+    
+   
+    box-shadow: 0px 2px 8px #007bff5e;
+}
+
+section{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
   
+}
+
+.plan-trip-page {
+    padding: 3rem;
+    background-color: #e0f7fa;
+}
+
+.plan-trip-page .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.plan-trip-page .step {
+    flex: 1 1 300px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.plan-trip-page .step h2 {
+    color: #0077b6;
+    margin-bottom: 0.8rem;
 }
