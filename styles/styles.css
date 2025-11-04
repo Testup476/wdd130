@@ -1,6 +1,11 @@
 
+:root{
+    --darkbleu-Clr : #00008c;
+    --max-W : 840px;
+
+}
 nav{
-    background-color: darkblue;
+    background: var(--darkbleu-Clr);
     padding: 10px;
 }
 
@@ -11,11 +16,11 @@ nav a {
 }
 
 main{
-    max-width: 840px;
+    max-width: var(--max-W)
 }
 
 h1{
-    color: darkblue;
+    color: var(--darkbleu-Clr);
 }
 
  main img{
