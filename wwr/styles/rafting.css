@@ -1,4 +1,5 @@
 :root{
+    --primary-color : #2B2B2B;
     --text-color : #333;
     --secondary-color: #7AC9A1; 
     --accent1-color: #0c0c0aec;
@@ -80,6 +81,7 @@ position: absolute;
 top: 15%;
 width: 99%;
 background: rgba(128, 128, 128, 0.2);
+color: var(--primary-color);
 }
 .hero article img{
     width: 125px;
@@ -96,7 +98,7 @@ section{
     display: flex;
 }
 
-.socilamedia a{
+nav a{
     text-decoration: none;
 }
 
