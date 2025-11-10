@@ -1,13 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 :root{
     --primary-color: #050404dc;
     --text-color : #333;
-    --secondary-color: #40916c; /*forest green*/
+    --secondary-color: #40916c; 
     --accent1-color: #0c0c0aec;
     --accent2-color: #007bff52;
     --heading-font: "Raleway", "Montserrat", sans-serif;
@@ -15,8 +9,14 @@
     --body-font: "Roboto", Arial, sans-serif;
 }
 
-header{
-    background-color: var(--secondary-color);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
     font-family: var(--body-font);
     color: var(--text-color);
 }
@@ -26,21 +26,17 @@ header, main, footer{
     margin:  0 auto;
 }
 
-h1{
-    font-family: var(--heading-font);
-     font-weight: 700;  
-     position: absolute;
-     top: 5%;
-     left: 5%;
-    background: rgba(128, 128, 128, 0.47);
-    padding: 1rem;
-    width: 90%;
-    font-size: 1.5rem;  
-    text-align: center;        
-    line-height: 1.2;        
-    color: rgba(33, 37, 41, 0.95); 
-    letter-spacing: -0.5px;
+
+header{
+    background-color: var(--secondary-color);
+    font-family: var(--body-font);
+    color: var(--text-color);
 }
+header nav{
+    display: flex;
+    flex-direction: column;
+}
+
 
 h2{
     font-family: var(--heading-font);
@@ -62,22 +58,38 @@ nav, p, section,article{
 }
 
 .hero .hero-image{
+    display: block;
     width: 100%;
     height: auto;
 }
 
+h1{
+    font-family: var(--heading-font);
+     font-weight: 700;  
+     position: absolute;
+     top: 5%;
+     left: 5%;
+    background: rgba(128, 128, 128, 0.47);
+    padding: 1rem;
+    width: 90%;
+    font-size: 1.5rem;  
+    text-align: center;        
+    line-height: 1.2;        
+    color: rgba(33, 37, 41, 0.95); 
+    letter-spacing: -0.5px;
+}
+
 article{
     display: flex;
-    padding: 1rem;
+padding: 1rem;
 position: absolute;
 top: 15%;
 width: 99%;
 background: rgba(128, 128, 128, 0.47);
 }
 article img{
-    width: 20%;
-    height: 30%;
-    border-radius: 3px;
+    
+    width: 125px;
 }
 .article p{
     color: var(--text-color);
@@ -88,18 +100,15 @@ section{
     margin: 1rem;
 }
 
-footer{
+footer nav{
     display: flex;
-    -ms-flex-align: start;
-    justify-content: space-around;
 }
 
 footer img{
     width: 80px;
-    margin: .9rem;
 }
 
 footer p{
-    margin: 3rem;
+    margin: 1rem;
 }
 
