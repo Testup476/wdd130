@@ -1,6 +1,6 @@
 :root{
     --primary-color : #2B2B2B;
-    --text-color : #333;
+    --text-color : #202020;
     --secondary-color: #7AC9A1; 
     --accent1-color: #0c0c0aec;
     --heading-font: "Raleway", "Montserrat", sans-serif;
@@ -75,16 +75,16 @@ nav, p, section,article{
 }
 
 .hero article {
-    display: flex;
 padding: 1rem;
 position: absolute;
 top: 15%;
 width: 99%;
-background: rgba(128, 128, 128, 0.2);
+background: rgba(128, 128, 128, 0.6);
 color: var(--primary-color);
 }
 .hero article img{
-    width: 125px;
+    float: right;
+    padding: 5px;
 }
 .hero article p{
     line-break: anywhere;
