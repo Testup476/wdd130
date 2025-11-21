@@ -125,7 +125,10 @@ nav a:hover{
     line-height: 20px;
 }
 
-figure{
+main h2{
+    margin-left: 2rem;
+}
+section{
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -133,7 +136,7 @@ figure{
     width: 100%;
 }
 
-figure >div img{
+figure img{
     width: 100%;
 }
 
