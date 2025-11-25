@@ -25,7 +25,8 @@ header, main, footer{
 
 
 header{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,350px);
     justify-content:space-between;
     background-color: var(--secondary-color);
     font-family: var(--body-font);
@@ -109,15 +110,13 @@ nav a:hover{
 }
 
 .history{
-   display: flex; 
-   margin-top: 1rem;
-   gap: 1rem;
+   display: grid; 
+   grid-template-columns: repeat(3,1fr);
 }
 
 .history img{
     border: none;
-    border-radius: 5px;
-}
+    margin: 1.5rem;}
 
 .history p{
     line-break: anywhere;
@@ -129,7 +128,7 @@ main h2{
 }
 .adventure{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 2rem;
     margin-top: 1rem;
     width: 100%;
