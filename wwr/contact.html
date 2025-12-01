@@ -49,31 +49,33 @@
             <div class="map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d63651.39876802792!2d15.325593599999998!3d-4.3712512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2scd!4v1759653919896!5m2!1sfr!2scd"
-                    width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
 
             <form>
                 <div class="item">
-                    <label for="name">Name
-                        <input type="text" id="name" placeholder="Placeholder" required>
-                    </label>
+                    <label for="name" name="name">Name</label>
+                    <input type="text" id="name" placeholder="Placeholder" required>
+
                 </div>
 
                 <div class="item">
-                    <label for="email">Email
-                        <input type="email" id="email" placeholder="Placeholder" required>
-                    </label>
+                    <label for="email" name="name">Email</label>
+                    <input type=" email" id="email" placeholder="Placeholder" required>
                 </div>
 
                 <div class="item rd">
-                    <label for="r1">general inquiry</label>
-                    <input type="radio" id="r1">
-                    <label for="r2">reservation question</label>
-                    <input type="radio" id="r2">
-                    <label for="r3">website suggestion</label>
-                    <input type="radio" id="r3">
+                    <label for="r1">General inquiry</label>
+                    <input type="radio" id="r1" name="inquiry_type" value="general">
+
+                    <label for="r2">Reservation question</label>
+                    <input type="radio" id="r2" name="inquiry_type" value="reservation">
+
+                    <label for="r3">Website suggestion</label>
+                    <input type="radio" id="r3" name="inquiry_type" value="suggestion">
                 </div>
+
 
                 <div class="item">
                     <label for="message">Message
